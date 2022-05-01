@@ -2586,7 +2586,7 @@ input, select, textarea {
 		-moz-align-items: -moz-flex-end;
 		-webkit-align-items: -webkit-flex-end;
 		-ms-align-items: -ms-flex-end;
-		align-items: flex-end;
+		align-items: center;
 		-moz-justify-content: space-between;
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
@@ -2602,7 +2602,7 @@ input, select, textarea {
 		left: 0;
 		padding: 8em 4em;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
 		width: 35%;
 	}
@@ -2613,6 +2613,8 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			width: 100%;
+			align-items: center;
+			justify-content: center;
 		}
 
 		#header > .inner {
@@ -2621,6 +2623,7 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
+			width: 90%;
 			text-align: center;
 		}
 
