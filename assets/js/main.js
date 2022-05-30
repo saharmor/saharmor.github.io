@@ -50,10 +50,6 @@
 
 		}
 
-	// Footer.
-		breakpoints.on('<=medium', function() {
-			$footer.insertAfter($main);
-		});
 
 		breakpoints.on('>medium', function() {
 			$footer.appendTo($header);

@@ -2193,6 +2193,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		margin-top: 0.25rem;
 	}
 
 		ul.icons li {
@@ -2624,6 +2625,19 @@ input, select, textarea {
 			flex-grow: 1;
 			margin: 0 0 2em 0;
 			text-align: center;
+		}
+		
+		#header > .inner > .icons {
+			margin: 0.4em 0 0 0;
+		}
+
+		#header a {
+			color: rgba(255, 255, 255, 0.4);
+		}
+
+		#header .social {
+			text-align: center;
+			padding-top: 1.5rem;
 		}
 
 		#header strong, #header b {
@@ -3173,6 +3187,12 @@ input, select, textarea {
 					font-size: 1.35em;
 				}
 
+		/* Footer */
+
+			/* #footer {
+				padding: 2.25em 1.5em;
+			} */
+
 		/* Main */
 
 			#main {
@@ -3204,7 +3224,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 4.5em 1.5em;
+				padding: 2.5em 1.5em;
 			}
 
 				#header h1 br {
