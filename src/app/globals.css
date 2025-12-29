@@ -49,20 +49,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Skip link for accessibility */
+/* Skip link for accessibility - hidden until focused */
 .skip-link {
   position: absolute;
-  top: -40px;
-  left: 0;
-  background: #000;
-  color: white;
-  padding: 8px;
-  text-decoration: none;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
   z-index: 100;
 }
 
 .skip-link:focus {
+  position: fixed;
   top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  background: #000;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 0.9rem;
 }
 
 /* Navigation */
