@@ -36,16 +36,6 @@ export default function Home() {
       <i className="fa-brands fa-github" aria-hidden="true" />
     </a>
     <a
-      className="hero-social__link hero-social__link--medium"
-      href="https://saharmor.medium.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Medium"
-      title="Medium"
-    >
-      <i className="fa-brands fa-medium" aria-hidden="true" />
-    </a>
-    <a
       className="hero-social__link hero-social__link--substack"
       href="https://aitidbits.substack.com/"
       target="_blank"
@@ -54,6 +44,16 @@ export default function Home() {
       title="Substack"
     >
       <i className="fa-regular fa-newspaper" aria-hidden="true" />
+    </a>
+    <a
+      className="hero-social__link hero-social__link--medium"
+      href="https://saharmor.medium.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Medium"
+      title="Medium"
+    >
+      <i className="fa-brands fa-medium" aria-hidden="true" />
     </a>
   </div>
 
