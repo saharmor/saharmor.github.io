@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://saharmor.me/" />
         <meta property="og:title" content="Sahar Mor" />
-        <meta property="og:description" content="Product leader and engineer at Wispr, building a voice OS. Previously led LLM adoption at Stripe. Bringing the latest in AI to the masses through writings, communities, and open source." />
+        <meta property="og:description" content="Product builder and engineer who teaches through writing, open source, and community" />
         <meta name="twitter:card" content="summary" />
       </head>
       <body>
