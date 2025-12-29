@@ -28,11 +28,6 @@ async function getData() {
   return { repos, projects };
 }
 
-export const metadata = {
-  title: 'Code - Sahar Mor',
-  description: 'Open source repositories and personal projects by Sahar Mor.',
-};
-
 export default async function Code() {
   const { repos, projects } = await getData();
 

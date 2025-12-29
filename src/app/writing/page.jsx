@@ -101,11 +101,6 @@ async function getData() {
   return { articles, tidbits };
 }
 
-export const metadata = {
-  title: 'Writing - Sahar Mor',
-  description: 'Articles and AI Tidbits posts by Sahar Mor on AI, technology, and entrepreneurship.',
-};
-
 export default async function Writing() {
   const { articles, tidbits } = await getData();
 
