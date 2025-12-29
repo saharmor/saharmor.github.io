@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Sahar Mor</title>
+	<meta name="description" content="Developer and writer. Bringing the latest in AI to the masses through writings and GitHub repos." />
+	
+	<!-- Open Graph / Twitter -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://saharmor.me/" />
+	<meta property="og:title" content="Sahar Mor" />
+	<meta property="og:description" content="Developer and writer. Bringing the latest in AI to the masses through writings and GitHub repos." />
+	<meta name="twitter:card" content="summary" />
+	
+	<link rel="stylesheet" href="assets/css/site.css" />
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/logos/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/logos/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/logos/favicon-16x16.png">
+	<link rel="manifest" href="assets/logos/site.webmanifest">
+
+	<!-- Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8Y2X2RCJWT"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-8Y2X2RCJWT');
+	</script>
+</head>
+<body>
+	<a href="#main" class="skip-link">Skip to main content</a>
+	<nav>
+		<div class="container">
+			<div></div>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/writing/">Writing</a></li>
+				<li><a href="/code/">Code</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<main id="main" class="container">
+		<section id="featured">
+			<h2>Featured</h2>
+			<ul class="list" id="featured-list">
+				<li class="list-item">
+					<a href="https://aitidbits.substack.com/?utm_source=saharmor.me" target="_blank" rel="noopener noreferrer">
+						<div><span class="tag">Newsletter</span></div>
+						<span class="list-item-title">AI Tidbits</span>
+						<span class="list-item-description">Stay up to date with the latest in AI in &lt;2 minutes a week</span>
+					</a>
+				</li>
+			</ul>
+		</section>
+
+		<section id="communities" class="communities">
+			<h2>Communities</h2>
+			<div id="communities-list" class="communities-grid"></div>
+		</section>
+
+		<section id="social">
+			<h2>Connect</h2>
+			<div class="social-links">
+				<a href="https://www.linkedin.com/in/sahar-mor/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+				<a href="https://twitter.com/theaievangelist" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+				<a href="https://github.com/saharmor" target="_blank" rel="noopener noreferrer">GitHub</a>
+				<a href="https://saharmor.medium.com/" target="_blank" rel="noopener noreferrer">Medium</a>
+				<a href="https://aitidbits.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2025 Sahar Mor. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<script>
+		// Load communities
+		fetch('assets/data/communities.json')
+			.then(res => res.json())
+			.then(data => {
+				const container = document.getElementById('communities-list');
+				data.forEach(community => {
+					const a = document.createElement('a');
+					a.className = 'community-card';
+					a.href = community.ctaUrl || '#';
+					a.target = '_blank';
+					a.rel = 'noopener noreferrer';
+					a.innerHTML = `
+						<h3>${community.name}</h3>
+						<p>${community.description}</p>
+					`;
+					container.appendChild(a);
+				});
+			})
+			.catch(err => console.error('Error loading communities:', err));
+
+		console.log('------------------------------------------------------')
+		console.log('--- > Curiosity keeps leading us down new paths  < ---')
+		console.log('------------------------------------------------------')
+	</script>
+</body>
+</html>
