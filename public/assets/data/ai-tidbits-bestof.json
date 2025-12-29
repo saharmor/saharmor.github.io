@@ -1,0 +1,66 @@
+[
+  {
+    "series": "Sahar's 2¢",
+    "title": "When machines learn to speak",
+    "subtitle": "One API call from human-like AI conversation: the profound shift from typing to talking and what it means for human interaction",
+    "url": "https://www.aitidbits.ai/p/when-machines-learn-to-speak",
+    "date": "March 2025"
+  },
+  {
+    "series": "Sahar's 2¢",
+    "title": "The future of Internet Search in the era of LLMs",
+    "subtitle": "How OpenAI's GPTBot and Google's new generative-AI-infused Search will redefine how we seek information and shop online",
+    "url": "https://www.aitidbits.ai/p/future-of-internet-search",
+    "date": "August 2023"
+  },
+  {
+    "series": "Agentic Internet",
+    "title": "Rewiring the Internet: Commerce in the Age of AI Agents",
+    "subtitle": "How commerce, payments, and marketing should evolve for an agent-mediated internet",
+    "url": "https://www.aitidbits.ai/p/ai-agents-commerce",
+    "date": "January 2025"
+  },
+  {
+    "series": "Agentic Internet",
+    "title": "AI Agents Web Infrastructure",
+    "subtitle": "The infrastructure required to power the agentic AI era",
+    "url": "https://www.aitidbits.ai/p/ai-agents-web-infrastructure",
+    "date": "December 2024"
+  },
+  {
+    "series": "Agentic Internet",
+    "title": "Agent Responsive Design",
+    "subtitle": "Designing for AI agents in the age of agentic internet",
+    "url": "https://www.aitidbits.ai/p/agent-responsive-design",
+    "date": "November 2024"
+  },
+  {
+    "series": "AI Coding",
+    "title": "Open Source Agents",
+    "subtitle": "The open-source toolkit for AI Agents builders",
+    "url": "https://www.aitidbits.ai/p/open-source-agents",
+    "date": "November 2024"
+  },
+  {
+    "series": "AI Coding",
+    "title": "Cloud Coding Agents",
+    "subtitle": "Building coding agents in the cloud",
+    "url": "https://www.aitidbits.ai/p/cloud-coding-agents",
+    "date": "September 2024"
+  },
+  {
+    "series": "AI Coding",
+    "title": "DeepWiki",
+    "subtitle": "Deep dive into wiki-based knowledge systems for AI",
+    "url": "https://www.aitidbits.ai/p/deepwiki",
+    "date": "August 2024"
+  },
+  {
+    "series": "AI Coding",
+    "title": "Sahar AI Coding",
+    "subtitle": "My journey and thoughts on AI-powered coding",
+    "url": "https://www.aitidbits.ai/p/sahar-ai-coding",
+    "date": "April 2024"
+  }
+]
+

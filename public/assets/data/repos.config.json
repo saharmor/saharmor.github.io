@@ -1,0 +1,43 @@
+[
+  {
+    "owner": "saharmor",
+    "repo": "sidekick-dev-web",
+    "thumbnailOverride": "images/thumbs/sidekick-dev-web.gif"
+  },
+  {
+    "owner": "saharmor",
+    "repo": "anima",
+    "thumbnailOverride": "images/thumbs/genesis.gif"
+  },
+  {
+    "owner": "saharmor",
+    "repo": "simulatedev",
+    "thumbnailOverride": "images/thumbs/simulatedev.gif"
+  },
+  {
+    "owner": "saharmor",
+    "repo": "cursor-view",
+    "thumbnailOverride": "images/thumbs/cursor-view.png"
+  },
+  {
+    "owner": "saharmor",
+    "repo": "gemini-multimodal-playground",
+    "thumbnailOverride": "images/thumbs/gemini-multimodal.gif"
+  },
+  {
+    "owner": "saharmor",
+    "repo": "whisper-playground",
+    "thumbnailOverride": "images/thumbs/whisper-playground.gif"
+  },
+  {
+    "owner": "saharmor",
+    "repo": "dalle-playground",
+    "thumbnailOverride": "images/thumbs/dalle-playground.gif"
+  },
+  {
+    "owner": "saharmor",
+    "repo": "react-super-cmd",
+    "thumbnailOverride": "images/thumbs/react-super-cmd.png"
+  }
+]
+
