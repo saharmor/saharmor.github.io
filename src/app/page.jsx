@@ -79,11 +79,11 @@ export default function Home() {
   <a href="http://aitidbits.ai/" target="_blank" rel="noopener noreferrer">
     write
   </a>{" "}
-  for 45k+ developers and researchers, run{" "}
+  for 45k+ developers and researchers,{" "}
   <a href="http://joinbond.ai/" target="_blank" rel="noopener noreferrer">
-    AI communities
+  run
   </a>{" "}
-  with 100k+ members,{" "}
+  AI communities with 100k+ members,{" "}
   <a href="https://github.com/saharmor" target="_blank" rel="noopener noreferrer">
     build
   </a>{" "}
