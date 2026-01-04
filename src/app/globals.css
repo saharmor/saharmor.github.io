@@ -139,12 +139,13 @@ h1 {
 }
 
 h2 {
-  font-size: 1.3rem; /* Slightly smaller for sophistication */
+  font-size: 0.8rem;
   font-weight: 600;
   line-height: 1.3;
   margin: calc(var(--spacing) * 2.5) 0 var(--spacing) 0;
-  color: var(--text-primary);
-  letter-spacing: -0.02em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
 }
 
 h2:first-of-type {
@@ -298,113 +299,77 @@ a:hover {
   line-height: 1.5;
 }
 
-/* Writing: Articles list (compact + title/date row) */
-#articles {
-  /* Use padding (not margin) so spacing doesn't collapse with the section above */
-  padding-top: calc(var(--spacing) * 1.25);
-}
-
-#articles h2 {
-  margin-top: 0;
-}
-
-#articles .list {
+/* Writing: Unified article list (used for both AI Tidbits and Articles) */
+.article-list {
+  list-style: none;
+  padding: 0;
   margin: var(--spacing) 0;
 }
 
-#articles .list-item {
-  margin-bottom: calc(var(--spacing) * 0.75);
-  padding-bottom: calc(var(--spacing) * 0.75);
+.article-row {
+  margin-bottom: calc(var(--spacing) * 1);
 }
 
-#articles .list-item a {
+.article-row a {
+  display: block;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.article-row a:hover {
+  text-decoration: none;
+}
+
+.article-row a:hover .article-row__title {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.article-row__header {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: calc(var(--spacing) * 0.75);
 }
 
-#articles .list-item-title {
-  margin: 0;
+.article-row__title {
+  font-weight: 600;
   font-size: 1.05rem;
+  color: var(--text-primary);
+  line-height: 1.4;
 }
 
-#articles .list-item-meta {
-  margin: 0;
-  white-space: nowrap;
-  font-variant-numeric: tabular-nums;
-}
-
-#articles .list-item a:hover .list-item-title {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
-}
-
-@media (max-width: 640px) {
-  #articles .list-item a {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.25rem;
-  }
-}
-
-/* Writing: AI Tidbits list (compact + clear hierarchy) */
-#ai-tidbits .list {
-  margin: var(--spacing) 0;
-}
-
-#ai-tidbits .list-item {
-  margin-bottom: calc(var(--spacing) * 1);
-  padding-bottom: 0;
-  border-bottom: none;
-}
-
-#ai-tidbits .list-item a {
-  display: block;
-}
-
-#ai-tidbits .tidbit-meta {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  margin-bottom: 0.4rem;
-}
-
-#ai-tidbits .series-label {
-  margin-bottom: 0;
-  padding: 3px 8px;
-  font-size: 0.68rem;
-  letter-spacing: 0.06em;
-}
-
-#ai-tidbits .tidbit-meta-sep {
-  color: var(--text-muted);
-  line-height: 1;
-}
-
-#ai-tidbits .tidbit-date {
+.article-row__date {
   font-size: 0.85rem;
   color: var(--text-muted);
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
 }
 
-#ai-tidbits .list-item-title {
-  display: block;
-  margin: 0;
-}
-
-#ai-tidbits .list-item-description {
+.article-row__subtitle {
   display: block;
   margin-top: 0.35rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 @media (max-width: 640px) {
-  #ai-tidbits .tidbit-meta {
-    flex-wrap: wrap;
-    row-gap: 0.3rem;
+  .article-row__header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
   }
+}
+
+/* Writing: Section spacing */
+#articles {
+  padding-top: calc(var(--spacing) * 1.25);
+}
+
+#articles h2 {
+  margin-top: 0;
 }
 
 /* Series label */

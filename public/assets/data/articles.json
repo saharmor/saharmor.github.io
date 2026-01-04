@@ -1,27 +1,23 @@
 [
   {
     "title": "How DALL-E 2 could solve major computer vision challenges",
+    "subtitle": "Using OpenAI's text-to-image model to generate training datasets and tackle data scarcity in computer vision",
     "publication": "VentureBeat",
     "date": "04/20/2022",
     "url": "https://venturebeat.com/2022/04/16/how-dall-e-2-could-solve-major-computer-vision-challenges?utm_source=saharmor.me",
     "thumbnail": "images/thumbs/dalle-venturebeat.jpg"
   },
   {
-    "title": "Brain-computer interfaces are making big progress this year",
-    "publication": "VentureBeat",
-    "date": "08/14/2021",
-    "url": "https://venturebeat.com/2021/08/14/brain-computer-interfaces-are-making-big-progress-this-year?utm_source=saharmor.me",
-    "thumbnail": "images/thumbs/bci.jpg"
-  },
-  {
     "title": "DALL-E: A Stepping Stone to Artificial General Intelligence",
+    "subtitle": "Why OpenAI's multimodal image generator represents a significant leap toward more general AI systems",
     "publication": "RTInsights",
     "date": "05/27/2021",
-    "url": "https://www.rtinsights.com/dall-e-a-stepping-stone-to-artificial-general-intelligence?utm_source=saharmor.me",
+    "url": "rtinsights.com/dall-e-a-stepping-stone-to-artificial-general-intelligence",
     "thumbnail": "images/thumbs/rtinsights_dalle.jpg"
   },
   {
     "title": "Talking Pains And Promises Of GPT-3 With Sahar Mor",
+    "subtitle": "An interview discussing GPT-3's capabilities, limitations, and the future of large language models",
     "publication": "Analytics India Magazine",
     "date": "03/19/2021",
     "url": "https://analyticsindiamag.com/talking-pains-and-promises-of-gpt-3-with-sahar-mor?utm_source=saharmor.me",
@@ -29,6 +25,7 @@
   },
   {
     "title": "Screening for Ethics at Scale",
+    "subtitle": "How companies can build ethical AI systems and integrate responsible practices into their development process",
     "publication": "Medium - The Startup",
     "date": "10/12/2020",
     "url": "https://medium.com/swlh/screening-for-ethics-at-scale-611696a2a4e4?utm_source=saharmor.me",
@@ -36,6 +33,7 @@
   },
   {
     "title": "Can GPT-3 Build a GPT-3 App?",
+    "subtitle": "Testing the limits of GPT-3 by asking it to write the code for its own application",
     "publication": "Medium - The Startup",
     "date": "09/07/2020",
     "url": "https://medium.com/swlh/can-gpt-3-build-a-gpt-3-app-dc4d17a5b351?utm_source=saharmor.me",
@@ -43,6 +41,7 @@
   },
   {
     "title": "A systematic guide to successfully apply for an O1 visa",
+    "subtitle": "A step-by-step approach to navigating the O1 visa process for individuals with extraordinary ability",
     "publication": "Medium",
     "date": "04/27/2022",
     "url": "https://saharmor.medium.com/a-systematic-guide-to-successfully-apply-for-an-o1-visa-ebe126fc39e6",

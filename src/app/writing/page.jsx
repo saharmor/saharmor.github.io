@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import ArticleRow from '@/components/ArticleRow';
 
 function parseMDYToUTCDate(mdy) {
   // articles.json stores dates as "MM/DD/YYYY"
@@ -113,44 +114,35 @@ export default async function Writing() {
 
       <section id="ai-tidbits">
         <h2>AI Tidbits Selected Posts</h2>
-        <ul className="list" id="tidbits-list">
+        <ul className="article-list">
           {tidbits.map((post, index) => (
-            <li key={index} className="list-item">
-              <a href={post.url} target="_blank" rel="noopener noreferrer">
-                <div className="tidbit-meta">
-                  <span className="series-label">{post.series}</span>
-                  <span className="tidbit-meta-sep" aria-hidden="true">·</span>
-                  <time className="tidbit-date" dateTime={formatTidbitDateTimeAttr(post.date)}>
-                    {formatTidbitDate(post.date)}
-                  </time>
-                </div>
-                <span className="list-item-title">{post.title}</span>
-                <span className="list-item-description">{post.subtitle}</span>
-              </a>
-            </li>
+            <ArticleRow
+              key={index}
+              title={post.title}
+              subtitle={post.subtitle}
+              date={formatTidbitDate(post.date)}
+              dateTime={formatTidbitDateTimeAttr(post.date)}
+              url={post.url}
+            />
           ))}
         </ul>
       </section>
 
       <section id="articles">
         <h2>Articles</h2>
-        <ul className="list" id="articles-list">
+        <ul className="article-list">
           {articles.map((article, index) => (
-            <li key={index} className="list-item">
-              <a href={article.url} target="_blank" rel="noopener noreferrer">
-                <span className="list-item-title">{article.title}</span>
-                <time
-                  className="list-item-meta"
-                  dateTime={formatArticleDateTimeAttr(article.date)}
-                >
-                  {formatArticleDate(article.date)}
-                </time>
-              </a>
-            </li>
+            <ArticleRow
+              key={index}
+              title={article.title}
+              subtitle={article.subtitle}
+              date={formatArticleDate(article.date)}
+              dateTime={formatArticleDateTimeAttr(article.date)}
+              url={article.url}
+            />
           ))}
         </ul>
       </section>
     </>
   );
 }
-
