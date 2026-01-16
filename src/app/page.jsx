@@ -58,11 +58,7 @@ export default function Home() {
   </div>
 
   <p>
-  I’m a product builder and engineer who teaches through writing, open source, and community. Currently at{" "}
-    <a href="http://wispr.ai/" target="_blank" rel="noopener noreferrer">
-      Wispr
-    </a>
-    , building a voice OS that is fast, accurate, and reliable. Previously, I worked at{" "}
+  I’m a product builder and engineer who teaches through writing, open source, and community. Currently building a voice OS that is fast, accurate, and reliable. Previously, I worked at{" "}
     <a href="https://stripe.com" target="_blank" rel="noopener noreferrer">
       Stripe
     </a>{" "}
