@@ -6,6 +6,12 @@
     "thumbnail": "images/thumbs/sidekick-dev-web.gif"
   },
   {
+    "title": "Tool Calls Schema Generator",
+    "description": "Generate valid OpenAI and Anthropic tool use JSON schemas without writing JSON by hand",
+    "url": "https://toolsuse.dev/",
+    "thumbnail": "https://raw.githubusercontent.com/saharmor/tool-use-scheme-generator/main/og-image.png"
+  },
+  {
     "title": "ThisImageDoesnotExist.com",
     "description": "Increasing awareness of generative AI models such as DALL-E and VQGAN",
     "url": "https://ThisImageDoesnotExist.com?utm_source=saharmor.me",
