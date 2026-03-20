@@ -110,6 +110,7 @@ async function build() {
     const thumbnail = config.emoji ? null : (thumbnailOverride || githubOpenGraphThumbnail(config.owner, config.repo));
     const entry = { ...repoData, thumbnail };
     if (config.emoji) entry.emoji = config.emoji;
+    if (config.descriptionOverride) entry.description = config.descriptionOverride;
     repos.push(entry);
     
     // Rate limit: GitHub allows 60 requests/hour for unauthenticated requests

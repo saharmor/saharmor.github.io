@@ -1,7 +1,14 @@
 [
   {
     "owner": "saharmor",
-    "repo": "tool-use-scheme-generator"
+    "repo": "sidekick-dev-web",
+    "thumbnailOverride": "images/thumbs/sidekick-dev-web.gif"
+  },
+  {
+    "owner": "saharmor",
+    "repo": "claude-prompting",
+    "thumbnailOverride": "images/thumbs/claude-prompting.png",
+    "descriptionOverride": "An interactive web app to sharpen your Claude prompt engineering skills — with guided lessons, hands-on exercises, and instant AI-graded feedback"
   },
   {
     "owner": "saharmor",
@@ -10,23 +17,8 @@
   },
   {
     "owner": "saharmor",
-    "repo": "evernote-trunk",
-    "emoji": "🐘"
-  },
-  {
-    "owner": "saharmor",
-    "repo": "claude-prompting",
-    "thumbnailOverride": "images/thumbs/claude-prompting.png"
-  },
-  {
-    "owner": "saharmor",
-    "repo": "sidekick-dev-web",
-    "thumbnailOverride": "images/thumbs/sidekick-dev-web.gif"
-  },
-  {
-    "owner": "saharmor",
-    "repo": "anima",
-    "thumbnailOverride": "images/thumbs/genesis.gif"
+    "repo": "cursor-view",
+    "thumbnailOverride": "images/thumbs/cursor-view.png"
   },
   {
     "owner": "saharmor",
@@ -35,8 +27,18 @@
   },
   {
     "owner": "saharmor",
-    "repo": "cursor-view",
-    "thumbnailOverride": "images/thumbs/cursor-view.png"
+    "repo": "tool-use-scheme-generator",
+    "thumbnailOverride": "https://raw.githubusercontent.com/saharmor/tool-use-scheme-generator/main/og-image.png"
+  },
+  {
+    "owner": "saharmor",
+    "repo": "evernote-trunk",
+    "emoji": "🐘"
+  },
+  {
+    "owner": "saharmor",
+    "repo": "anima",
+    "thumbnailOverride": "images/thumbs/genesis.gif"
   },
   {
     "owner": "saharmor",
@@ -59,4 +61,3 @@
     "thumbnailOverride": "images/thumbs/react-super-cmd.png"
   }
 ]
-
