@@ -76,16 +76,18 @@ export default function Home() {
     write
   </a>{" "}
   for 45k+ developers and researchers,{" "}
+  run{" "}
   <a href="http://joinbond.ai/" target="_blank" rel="noopener noreferrer">
-  run
+    AI communities
   </a>{" "}
-  AI communities with 100k+ members,{" "}
+  with 120k+ members,{" "}
   <a href="https://github.com/saharmor" target="_blank" rel="noopener noreferrer">
-    build
+    open-source projects
+  </a>, and help{" "}
+  <a href="https://saharmor.medium.com/a-systematic-guide-to-successfully-apply-for-an-o1-visa-ebe126fc39e6#:~:text=off%20any%20case.-,Join%20the%20community,-%7C%20Claim%20your" target="_blank" rel="noopener noreferrer">
+    exceptional people
   </a>{" "}
-  open-source projects, and <a href="https://saharmor.medium.com/a-systematic-guide-to-successfully-apply-for-an-o1-visa-ebe126fc39e6#:~:text=off%20any%20case.-,Join%20the%20community,-%7C%20Claim%20your" target="_blank" rel="noopener noreferrer">
-  help
-  </a> exceptional people navigate the O-1/EB-1 visa process.
+  navigate the O-1/EB-1 visa process.
 </p>
 
 </section>

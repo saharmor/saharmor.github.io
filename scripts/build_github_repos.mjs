@@ -107,11 +107,10 @@ async function build() {
       };
     }
     const thumbnailOverride = config.thumbnailOverride ?? config.thumbnail;
-    const thumbnail = thumbnailOverride || githubOpenGraphThumbnail(config.owner, config.repo);
-    repos.push({
-      ...repoData,
-      thumbnail
-    });
+    const thumbnail = config.emoji ? null : (thumbnailOverride || githubOpenGraphThumbnail(config.owner, config.repo));
+    const entry = { ...repoData, thumbnail };
+    if (config.emoji) entry.emoji = config.emoji;
+    repos.push(entry);
     
     // Rate limit: GitHub allows 60 requests/hour for unauthenticated requests
     // Add a small delay to be safe

@@ -12,16 +12,40 @@
     "thumbnail": "images/thumbs/sidekick-dev-web.gif"
   },
   {
-    "name": "anima",
-    "fullName": "saharmor/anima",
-    "description": "Turn text into video using Stable Diffusion and Google FILM",
-    "stars": 42,
-    "url": "https://github.com/saharmor/anima",
+    "name": "claude-prompting",
+    "fullName": "saharmor/claude-prompting",
+    "description": "An interactive web app to sharpen your Claude prompt engineering skills — with guided lessons, hands-on exercises, and instant AI-graded feedback",
+    "stars": 1,
+    "url": "https://github.com/saharmor/claude-prompting",
+    "homepage": "https://www.promptclaude.dev",
+    "language": "TypeScript",
+    "updatedAt": "2026-03-01T00:00:00Z",
+    "pushedAt": "2026-03-01T00:00:00Z",
+    "thumbnail": "images/thumbs/claude-prompting.png"
+  },
+  {
+    "name": "wispr-action",
+    "fullName": "saharmor/wispr-action",
+    "description": "Turn your perfectly transcribed speech into real-world actions",
+    "stars": 4,
+    "url": "https://github.com/saharmor/wispr-action",
     "homepage": null,
-    "language": "Jupyter Notebook",
-    "updatedAt": "2025-03-26T08:04:54Z",
-    "pushedAt": "2023-06-13T20:22:00Z",
-    "thumbnail": "images/thumbs/genesis.gif"
+    "language": "Python",
+    "updatedAt": "2026-03-01T00:00:00Z",
+    "pushedAt": "2026-03-01T00:00:00Z",
+    "thumbnail": "images/thumbs/wispr-action.png"
+  },
+  {
+    "name": "cursor-view",
+    "fullName": "saharmor/cursor-view",
+    "description": "Browse, search, export, and share your entire Cursor AI chat history",
+    "stars": 92,
+    "url": "https://github.com/saharmor/cursor-view",
+    "homepage": null,
+    "language": "Python",
+    "updatedAt": "2025-12-29T05:26:50Z",
+    "pushedAt": "2025-09-12T02:50:19Z",
+    "thumbnail": "images/thumbs/cursor-view.png"
   },
   {
     "name": "simulatedev",
@@ -36,16 +60,41 @@
     "thumbnail": "images/thumbs/simulatedev.gif"
   },
   {
-    "name": "cursor-view",
-    "fullName": "saharmor/cursor-view",
-    "description": "Browse, search, export, and share your entire Cursor AI chat history",
-    "stars": 92,
-    "url": "https://github.com/saharmor/cursor-view",
+    "name": "tool-use-scheme-generator",
+    "fullName": "saharmor/tool-use-scheme-generator",
+    "description": "Create OpenAI and Anthropic function-calling schemas without writing JSON by hand",
+    "stars": 3,
+    "url": "https://github.com/saharmor/tool-use-scheme-generator",
+    "homepage": "https://toolsuse.dev",
+    "language": "JavaScript",
+    "updatedAt": "2026-03-01T00:00:00Z",
+    "pushedAt": "2026-03-01T00:00:00Z",
+    "thumbnail": "https://raw.githubusercontent.com/saharmor/tool-use-scheme-generator/main/og-image.png"
+  },
+  {
+    "name": "evernote-trunk",
+    "fullName": "saharmor/evernote-trunk",
+    "description": "Break free from Evernote. Export all your notes to a beautiful, self-hosted archive you actually own.",
+    "stars": 8,
+    "url": "https://github.com/saharmor/evernote-trunk",
     "homepage": null,
     "language": "Python",
-    "updatedAt": "2025-12-29T05:26:50Z",
-    "pushedAt": "2025-09-12T02:50:19Z",
-    "thumbnail": "images/thumbs/cursor-view.png"
+    "updatedAt": "2026-03-01T00:00:00Z",
+    "pushedAt": "2026-03-01T00:00:00Z",
+    "thumbnail": null,
+    "emoji": "🐘"
+  },
+  {
+    "name": "anima",
+    "fullName": "saharmor/anima",
+    "description": "Turn text into video using Stable Diffusion and Google FILM",
+    "stars": 42,
+    "url": "https://github.com/saharmor/anima",
+    "homepage": null,
+    "language": "Jupyter Notebook",
+    "updatedAt": "2025-03-26T08:04:54Z",
+    "pushedAt": "2023-06-13T20:22:00Z",
+    "thumbnail": "images/thumbs/genesis.gif"
   },
   {
     "name": "gemini-multimodal-playground",

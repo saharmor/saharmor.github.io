@@ -1,6 +1,25 @@
 [
   {
     "owner": "saharmor",
+    "repo": "tool-use-scheme-generator"
+  },
+  {
+    "owner": "saharmor",
+    "repo": "wispr-action",
+    "thumbnailOverride": "images/thumbs/wispr-action.png"
+  },
+  {
+    "owner": "saharmor",
+    "repo": "evernote-trunk",
+    "emoji": "🐘"
+  },
+  {
+    "owner": "saharmor",
+    "repo": "claude-prompting",
+    "thumbnailOverride": "images/thumbs/claude-prompting.png"
+  },
+  {
+    "owner": "saharmor",
     "repo": "sidekick-dev-web",
     "thumbnailOverride": "images/thumbs/sidekick-dev-web.gif"
   },

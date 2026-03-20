@@ -6,6 +6,12 @@
     "thumbnail": "images/thumbs/sidekick-dev-web.gif"
   },
   {
+    "title": "Prompt Claude",
+    "description": "An interactive prompt engineering course to sharpen your Claude skills — guided lessons, hands-on exercises, and instant AI-graded feedback. No account needed.",
+    "url": "https://www.promptclaude.dev/",
+    "thumbnail": "images/thumbs/claude-prompting.png"
+  },
+  {
     "title": "Tool Calls Schema Generator",
     "description": "Generate valid OpenAI and Anthropic tool use JSON schemas without writing JSON by hand",
     "url": "https://toolsuse.dev/",

@@ -49,14 +49,16 @@ export default async function Code() {
 
               return (
                 <a key={repo.url || repo.name} className="card" href={repo.url} target="_blank" rel="noopener noreferrer">
-                  {thumbSrc && (
+                  {thumbSrc ? (
                     <SafeImage
                       src={thumbSrc}
                       alt={`${repo.name} project thumbnail`}
                       className="card-thumbnail"
                       loading="lazy"
                     />
-                  )}
+                  ) : repo.emoji ? (
+                    <div className="card-thumbnail-emoji" aria-label={repo.name}>{repo.emoji}</div>
+                  ) : null}
 
                   <div className="card-title">{repo.name}</div>
 
