@@ -12,6 +12,12 @@
   },
   {
     "owner": "saharmor",
+    "repo": "EchoScribe",
+    "thumbnailOverride": "images/thumbs/echoscribe.png",
+    "descriptionOverride": "Audio transcription workspace — record or upload audio and get clean transcripts using OpenAI Whisper. Try it online or run locally with a local Whisper model."
+  },
+  {
+    "owner": "saharmor",
     "repo": "wispr-action",
     "thumbnailOverride": "images/thumbs/wispr-action.png"
   },

@@ -12,6 +12,12 @@
     "thumbnail": "images/thumbs/claude-prompting.png"
   },
   {
+    "title": "EchoScribe",
+    "description": "Audio transcription workspace — drop audio files or record, enter your OpenAI API key, and get clean transcripts in seconds. No sign-up required.",
+    "url": "https://saharmor.me/EchoScribe/",
+    "thumbnail": "images/thumbs/echoscribe.png"
+  },
+  {
     "title": "Tool Calls Schema Generator",
     "description": "Generate valid OpenAI and Anthropic tool use JSON schemas without writing JSON by hand",
     "url": "https://toolsuse.dev/",
