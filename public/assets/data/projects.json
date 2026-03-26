@@ -7,13 +7,13 @@
   },
   {
     "title": "Prompt Claude",
-    "description": "An interactive prompt engineering course to sharpen your Claude skills — guided lessons, hands-on exercises, and instant AI-graded feedback. No account needed.",
+    "description": "An interactive prompt engineering course to sharpen your Claude skills. Guided lessons, hands-on exercises, and instant AI-graded feedback. No account needed.",
     "url": "https://www.promptclaude.dev/",
     "thumbnail": "images/thumbs/claude-prompting.png"
   },
   {
     "title": "EchoScribe",
-    "description": "Audio transcription workspace — drop audio files or record, enter your OpenAI API key, and get clean transcripts in seconds. No sign-up required.",
+    "description": "Audio transcription workspace. Drop audio files or record, enter your OpenAI API key, and get clean transcripts in seconds. No sign-up required.",
     "url": "https://saharmor.me/EchoScribe/",
     "thumbnail": "images/thumbs/echoscribe.png"
   },

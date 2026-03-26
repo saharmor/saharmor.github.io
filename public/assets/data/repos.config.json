@@ -8,13 +8,13 @@
     "owner": "saharmor",
     "repo": "claude-prompting",
     "thumbnailOverride": "images/thumbs/claude-prompting.png",
-    "descriptionOverride": "An interactive web app to sharpen your Claude prompt engineering skills — with guided lessons, hands-on exercises, and instant AI-graded feedback"
+    "descriptionOverride": "An interactive web app to sharpen your Claude prompt engineering skills, with guided lessons, hands-on exercises, and instant AI-graded feedback"
   },
   {
     "owner": "saharmor",
     "repo": "EchoScribe",
     "thumbnailOverride": "images/thumbs/echoscribe.png",
-    "descriptionOverride": "Audio transcription workspace — record or upload audio and get clean transcripts using OpenAI Whisper. Try it online or run locally with a local Whisper model."
+    "descriptionOverride": "Audio transcription workspace. Record or upload audio and get clean transcripts using OpenAI Whisper. Try it online or run locally with a local Whisper model."
   },
   {
     "owner": "saharmor",

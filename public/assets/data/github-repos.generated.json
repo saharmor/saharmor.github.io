@@ -14,7 +14,7 @@
   {
     "name": "prompt-claude",
     "fullName": "saharmor/prompt-claude",
-    "description": "An interactive web app to sharpen your Claude prompt engineering skills — with guided lessons, hands-on exercises, and instant AI-graded feedback",
+    "description": "An interactive web app to sharpen your Claude prompt engineering skills, with guided lessons, hands-on exercises, and instant AI-graded feedback",
     "stars": 3,
     "url": "https://github.com/saharmor/prompt-claude",
     "homepage": "https://www.promptclaude.dev",
@@ -26,13 +26,13 @@
   {
     "name": "EchoScribe",
     "fullName": "saharmor/EchoScribe",
-    "description": "Audio transcription workspace — record or upload audio and get clean transcripts using OpenAI Whisper. Try it online or run locally with a local Whisper model.",
+    "description": "Audio transcription workspace. Record or upload audio and get clean transcripts using OpenAI Whisper. Try it online or run locally with a local Whisper model.",
     "stars": 1,
     "url": "https://github.com/saharmor/EchoScribe",
-    "homepage": null,
+    "homepage": "http://saharmor.me/EchoScribe/",
     "language": "TypeScript",
-    "updatedAt": "2026-03-26T22:35:12Z",
-    "pushedAt": "2026-03-26T22:35:09Z",
+    "updatedAt": "2026-03-26T22:53:53Z",
+    "pushedAt": "2026-03-26T22:53:49Z",
     "thumbnail": "images/thumbs/echoscribe.png"
   },
   {
